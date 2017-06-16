@@ -16,8 +16,7 @@ namespace WebCrawler
         {
             InitializeComponent();
         }
-
-        string test = "";
+                
         string navigationUrl = "https://portfolio.rediff.com/portfolio-login";
         string userName = "raju44u@gmail.com";
         string password = "raju44u";

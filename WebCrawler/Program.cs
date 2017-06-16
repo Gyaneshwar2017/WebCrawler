@@ -13,8 +13,7 @@ namespace WebCrawler
         /// </summary>
         [STAThread]
         static void Main()
-        {
-            string test = "";
+        {            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmWebControl());

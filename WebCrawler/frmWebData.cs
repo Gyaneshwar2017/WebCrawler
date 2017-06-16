@@ -12,8 +12,7 @@ namespace WebCrawler
 {
     public partial class frmWebData : Form
     {
-        public DataTable dtData { get; set; }
-        public string agab = "";
+        public DataTable dtData { get; set; }        
         public frmWebData()
         {
             InitializeComponent();
