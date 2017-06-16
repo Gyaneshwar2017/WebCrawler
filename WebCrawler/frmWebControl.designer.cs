@@ -49,6 +49,7 @@
             // 
             // btnGetData
             // 
+            this.btnGetData.Enabled = false;
             this.btnGetData.Location = new System.Drawing.Point(348, 12);
             this.btnGetData.Name = "btnGetData";
             this.btnGetData.Size = new System.Drawing.Size(142, 32);
@@ -59,6 +60,7 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Enabled = false;
             this.btnLogin.Location = new System.Drawing.Point(185, 12);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(142, 32);
@@ -95,6 +97,7 @@
             this.Controls.Add(this.pnlButton);
             this.Name = "frmWebControl";
             this.Text = "frmWebControl";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmWebControl_Load);
             this.pnlButton.ResumeLayout(false);
             this.ResumeLayout(false);

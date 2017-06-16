@@ -28,6 +28,7 @@ namespace WebCrawler
         private void btnLoadWebSite_Click(object sender, EventArgs e)
         {
             webBrowser1.Navigate(navigationUrl);
+            btnLogin.Enabled = true;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -48,11 +49,13 @@ namespace WebCrawler
 
                 element = webBrowser1.Document.GetElementById("loginsubmit");
                 element.InvokeMember("click");
+
+                btnGetData.Enabled = true;
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            }            
         }
 
         private void btnGetData_Click(object sender, EventArgs e)
